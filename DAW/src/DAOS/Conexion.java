@@ -11,7 +11,7 @@ import excepciones.QueryException;
 public class Conexion {
 
 	private static Connection conn;
-	private static final String URL = "jdbc:mysql://localhost:3306/mydb?" + "user=root&password=1212";
+	private static final String URL = "jdbc:mysql://localhost:3306/aplicaciones_web?" + "user=root&password=";
 
 	static {
 		try {
