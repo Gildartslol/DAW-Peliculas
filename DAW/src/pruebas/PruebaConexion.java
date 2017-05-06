@@ -1,7 +1,7 @@
 package pruebas;
 
-import DAOS.Conexion;
-import DAOS.Qry;
+import dao.Conexion;
+import dao.Qry;
 import excepciones.QueryException;
 
 public class PruebaConexion {
